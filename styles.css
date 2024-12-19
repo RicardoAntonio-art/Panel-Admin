@@ -1,15 +1,16 @@
 :root{
-    font-size: 20px;
+    font-size: 13px;
 }
 
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
 }
 
 
 header{ 
-    background: lightgreen;
     box-shadow: 10px 5px 10px rgb(161, 161, 161);
 }
 
@@ -17,12 +18,13 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: .5rem;
+    padding: 1rem;
 }
 
 .search{ 
     display: flex;
     justify-content: center;
+    width: 50%;
     gap: .5rem;
 }
 .search button{
@@ -32,12 +34,13 @@ header{
 }
 
 .fa-magnifying-glass{ 
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .search input{
+    background: lightgray;
     width: 25rem;
-    height: 1.5rem;
+    height: 2rem;
     border: none;
     border-radius: 1rem;
     padding-left: .8rem;
@@ -51,8 +54,10 @@ header{
 
 .user1{ 
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 1rem;
+    width: 50%;
 }
 
 .profile{
@@ -62,7 +67,7 @@ header{
 }
 
 .fa-bell{
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 
 .profile img{
@@ -79,8 +84,60 @@ header{
 
 
 
+.subcontainer{
+    display: flex;
+}
 
+.subcontainer .user2{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
 
-.subcontaienr{
-    border: 2px solid indigo;
+.profile2{
+    width: 5rem;
+    height: 6rem;
+    border-radius: 100%;
+}
+
+.profile2 img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.user2 .greeting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.greeting p{
+    font-size: 1.2rem;
+}
+
+.greeting h2{
+    font-size: 1.4rem;
+}
+
+.subcontainer .buttons{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buttons button{
+    width: 10rem;
+    height: 2.8rem;
+    border-radius: 1rem;
+    border: none;
+    background: lightgreen;
+    color: black;
+    font-size: 1.2rem;
+}
+
+button:hover{
+    cursor: pointer;
 }
