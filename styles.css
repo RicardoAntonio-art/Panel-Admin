@@ -1,4 +1,86 @@
+:root{
+    font-size: 20px;
+}
+
 *{
     margin: 0;
     padding: 0;
+}
+
+
+header{ 
+    background: lightgreen;
+    box-shadow: 10px 5px 10px rgb(161, 161, 161);
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: .5rem;
+}
+
+.search{ 
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+}
+.search button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.fa-magnifying-glass{ 
+    font-size: 1rem;
+}
+
+.search input{
+    width: 25rem;
+    height: 1.5rem;
+    border: none;
+    border-radius: 1rem;
+    padding-left: .8rem;
+    outline: none;
+    transition: all ease 0.5s;
+}
+
+.barra:focus{ 
+    box-shadow: 10px 5px 10px rgb(161, 161, 161);
+}
+
+.user1{ 
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+}
+
+.fa-bell{
+    font-size: 1.4rem;
+}
+
+.profile img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.user1 h2{
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+.subcontaienr{
+    border: 2px solid indigo;
 }
