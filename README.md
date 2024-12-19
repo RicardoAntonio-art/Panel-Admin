@@ -1,1 +1,2 @@
 # Panel-Admin
+Ahora que ya has practicado bastante con Grid, vamos a crear un diseño de panel completo. Para este proyecto, utiliza las herramientas que necesites para hacerlo, pero intenta utilizar Grid para la mayor parte del trabajo de diseño. Repasa las lecciones o las tareas de práctica si necesitas un repaso.
