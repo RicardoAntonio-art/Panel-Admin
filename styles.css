@@ -46,7 +46,7 @@ header{
 
 .search input{
     background: lightgray;
-    width: 25rem;
+    width: 30rem;
     height: 2rem;
     border: none;
     border-radius: 1rem;
@@ -132,7 +132,7 @@ header{
     width: 50%;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: center;    
 }
 
 .buttons button{
@@ -140,7 +140,7 @@ header{
     height: 2.8rem;
     border-radius: 1rem;
     border: none;
-    background: lightgreen;
+    background: lightskyblue;
     color: black;
     font-size: 1.2rem;
 }
@@ -150,12 +150,8 @@ button:hover{
 }
 
 
-
-
-
 .dashboard{
-    border: 2px solid lightgreen;
-    background: lightgreen;   
+    background: lightskyblue;   
     display: flex;
     padding: 1.3rem;
     flex-direction: column;
@@ -192,10 +188,9 @@ li i{
 
 
 .content{
-    border: 2px solid black;
     height: max-content;
     display: flex;
-    background: lightgray;
+    background: lightsteelblue;
     grid-column: 2/6 ;
     grid-row: 2/4;
 }
@@ -211,7 +206,6 @@ li i{
 }
 
 .grid-container .card{
-    border: 1px solid lightgray;
     padding: 2rem;
     width: 280px;
     height: 180px;
@@ -229,7 +223,6 @@ li i{
 
 
 .flex-container{
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -240,7 +233,6 @@ li i{
     font-size: 1.3rem;
 }
 .flex-container .card1{
-    border: 2px solid blue;
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -264,7 +256,7 @@ li i{
     flex-direction: column;
     width: 70%;
     background-color: white;
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 1rem;
 }
 
